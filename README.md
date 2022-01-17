@@ -4,6 +4,7 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 
 Materials & Methods
 ![alt text](http://url/to/img.png)
+![alt text](https://github.com/engbio/TextMiningAMR/image/Figure 1.png?raw=true)
 A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
 
  
