@@ -10,9 +10,161 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
  
 Figure 1. Modelo de TM proposto. As etapas (A) e (B) incluem a recuperação das informações. As etapas (C) e (D) contemplam o reconhecimento das entidades e a descoberta de conhecimentos, resultando em uma métrica (similaridade cosseno) responsável por determinar a classificação binária realizada na etapa (E).
 
-Results
+# Results
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr style='height:14.2pt'>
+  <td width=267 valign=top style='width:200.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:14.2pt'>
+  <p class=MsoNormalCxSpFirst style='text-align:justify;line-height:normal'><b><span
+  lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></b></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border:solid black 1.0pt;
+  border-left:none;background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:14.2pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><b><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>Relevant</span></b></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border:solid black 1.0pt;
+  border-left:none;background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:14.2pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><b><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>Irrelevant</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:16.0pt'>
+  <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
+  border-top:none;background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><b><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Rotulação</span></b></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman","serif"'>&nbsp;</span></b></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><b><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:16.65pt'>
+  <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.65pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Dataset_1</span></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.65pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman","serif"'>80%</span></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.65pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>68%</span></p>
+  </td>
+ </tr>
+ <tr style='height:16.0pt'>
+  <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Dataset_2</span></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman","serif"'>66%</span></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>34%</span></p>
+  </td>
+ </tr>
+ <tr style='height:16.0pt'>
+  <td width=267 valign=top style='width:200.05pt;border-top:none;border-left:
+  solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><b><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Classificação</span></b></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman","serif"'>&nbsp;</span></b></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><b><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>&nbsp;</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:17.2pt'>
+  <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:17.2pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>SVM_1</span></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.2pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><b><span lang=EN-US style='font-size:12.0pt;line-height:
+  115%;font-family:"Times New Roman","serif"'>93%</span></b></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.2pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><b><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif"'>89%</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:16.0pt'>
+  <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>SVM_2</span></p>
+  </td>
+  <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:115%'><span lang=EN-US style='font-size:12.0pt;line-height:115%;
+  font-family:"Times New Roman","serif";color:red'>60%</span></p>
+  </td>
+  <td width=184 valign=top style='width:138.15pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
+  <p class=MsoNormalCxSpMiddle align=center style='text-align:center;
+  line-height:normal'><span lang=EN-US style='font-size:12.0pt;font-family:
+  "Times New Roman","serif";color:red'>29%</span></p>
+  </td>
+ </tr>
+</table>
 
 A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de rotulação quanto na etapa de classificação, em comparação com os dados rotulados por especialistas e valida a hipótese de que o uso de Paragraph Vector, Distributed Representations of Sentences and Documents associados a similaridade com um contexto específico é capaz de, não somente, realizar a classificação binária de grandes volumes de dados, como também otimizar o percentual de acertos de classificadores supervisionados. Já o classificador SVM_2 apresentou uma redução no número de acertos em relação a etapa de Rotulação, embora tenhamos adotado em ambos os experimentos o mesmo vetor de atributos e a mesma representação (bag of words, ponderada com TF-IDF).
+
 
 # Materiais Suplementares
 
