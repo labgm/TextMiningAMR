@@ -183,3 +183,8 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 # Document Embedding (AMR Context)
 [Document Embedding]
+
+# Figures and Tables
+
+[Figures] (https://github.com/engbiopct/TextMiningAMR/tree/main/figure)
+[Tables] 9https://github.com/engbiopct/TextMiningAMR/tree/main/table)
