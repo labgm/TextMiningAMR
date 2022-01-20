@@ -16,4 +16,4 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 ![exemplo](exemplo.png)
 
-[contributing](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/CONTRIBUTING.md)
+[contributing](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
