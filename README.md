@@ -18,7 +18,7 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 [Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
 [Table S2 - CARD and the Gene Ontology Database](https://github.com/kellecosta/model_amr/blob/main/teste.csv)  
-[Table S3 - Dataset Doc2vec Label](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S3 - Dataset Doc2vec Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/3_dataset_doc2vec_label.csv)
 [Table S4 - Dataset TF-IDF Label](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
 [Table S5 - 4_Experiments_vs_Specialists.csv](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
 
