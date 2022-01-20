@@ -11,6 +11,7 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 Figure 1. Modelo de TM proposto. As etapas (A) e (B) incluem a recuperação das informações. As etapas (C) e (D) contemplam o reconhecimento das entidades e a descoberta de conhecimentos, resultando em uma métrica (similaridade cosseno) responsável por determinar a classificação binária realizada na etapa (E).
 
 # Results
+Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
