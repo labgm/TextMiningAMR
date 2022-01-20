@@ -14,6 +14,13 @@ Results
 
 A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de rotulação quanto na etapa de classificação, em comparação com os dados rotulados por especialistas e valida a hipótese de que o uso de Paragraph Vector, Distributed Representations of Sentences and Documents associados a similaridade com um contexto específico é capaz de, não somente, realizar a classificação binária de grandes volumes de dados, como também otimizar o percentual de acertos de classificadores supervisionados. Já o classificador SVM_2 apresentou uma redução no número de acertos em relação a etapa de Rotulação, embora tenhamos adotado em ambos os experimentos o mesmo vetor de atributos e a mesma representação (bag of words, ponderada com TF-IDF).
 
-![exemplo](exemplo.png)
+# Materiais Suplementares
 
-[contributing](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S2 - CARD and the Gene Ontology Database](https://github.com/kellecosta/model_amr/blob/main/teste.csv)  
+[Table S3 - Dataset Doc2vec Label](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S4 - Dataset TF-IDF Label](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S5 - 4_Experiments_vs_Specialists.csv](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+
+# Document Embedding (AMR Context)
+[Document Embedding]
