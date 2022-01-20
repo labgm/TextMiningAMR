@@ -7,8 +7,10 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 ![alt text](https://github.com/engbiopct/TextMiningAMR/blob/main/figure/Figure%201.png?raw=true)
 </br>A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
 
- 
-Figure 1. Modelo de TM proposto. As etapas (A) e (B) incluem a recuperação das informações. As etapas (C) e (D) contemplam o reconhecimento das entidades e a descoberta de conhecimentos, resultando em uma métrica (similaridade cosseno) responsável por determinar a classificação binária realizada na etapa (E).
+Recuperamos uma coleção de artigos relevantes no domínio Drug Resistance, Microbial, do banco de dados Pubmed Central (PMC), onde são disponibilizados arquivos de texto completo e gratuitos da literatura biomédica da Biblioteca Nacional de Medicina e do Instituto Nacional de Saúde dos EUA (NIH / NLM). 
+Utilizamos os termos da hierarquia MeSH para resistência antimicrobiana (https://meshb.nlm.nih.gov/record/ui?ui=D004352) e obtivemos uma lista de PMCIDs (identificadores únicos fornecidos pelo PubMed Central a cada documento) com os quais acessaremos os textos completos dos artigos através do utilitário E-Fetch. 
+
+Utilizamos o algoritmo de aprendizagem não supervisionada Doc2Vec da biblioteca Gensim, que implementa o modelo Paragraph Vector – Distributed Memory, para obter o embedding dos documentos recuperados (Figure 1-C). Com o modelo pré-treinado, inferimos a similaridade dos documentos ao contexto AMR, representado por 4.290 termos extraídos do CARD e do Gene Ontology Database (Figure 1-D) e rotulamos automaticamente cada um dos artigos científicos (Figure 1-E) como relevantes ou irrelevantes.
 
 # Results
 Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
