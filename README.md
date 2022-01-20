@@ -186,5 +186,6 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 # Figures and Tables
 
-[Figures] (https://github.com/engbiopct/TextMiningAMR/tree/main/figure)
-[Tables] 9https://github.com/engbiopct/TextMiningAMR/tree/main/table)
+[Figures](https://github.com/engbiopct/TextMiningAMR/tree/main/figure)
+
+[Tables](https://github.com/engbiopct/TextMiningAMR/tree/main/table)
