@@ -171,7 +171,7 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 # Complementary Materials
 
-[Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/1_initial_dataset.rar)
 
 [Table S2 - CARD and the Gene Ontology Database](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
 
