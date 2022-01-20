@@ -166,7 +166,7 @@ Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
  </tr>
 </table>
 
-A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de rotulação quanto na etapa de classificação, em comparação com os dados rotulados por especialistas e valida a hipótese de que o uso de Paragraph Vector, Distributed Representations of Sentences and Documents associados a similaridade com um contexto específico é capaz de, não somente, realizar a classificação binária de grandes volumes de dados, como também otimizar o percentual de acertos de classificadores supervisionados. Já o classificador SVM_2 apresentou uma redução no número de acertos em relação a etapa de Rotulação, embora tenhamos adotado em ambos os experimentos o mesmo vetor de atributos e a mesma representação (bag of words, ponderada com TF-IDF).
+A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de rotulação quanto na etapa de classificação, em comparação com os dados rotulados por especialistas e valida a hipótese de que o uso de Paragraph Vector, Distributed Representations of Sentences and Documents associados a similaridade com um contexto específico é capaz de, não somente, realizar a classificação binária de grandes volumes de dados de forma satisfatória, como também otimizar o percentual de acertos quando submetida a classificadores supervisionados.
 
 
 # Complementary Materials
