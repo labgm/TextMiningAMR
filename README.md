@@ -184,7 +184,17 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 [Table S5 - 4_Experiments_vs_Specialists.csv](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
 
 # Document Embedding (AMR Context)
-[Document Embedding]
+[Document Embedding 1](https://github.com/kellecosta/model_amr/blob/main/1_document_embedding.rar)
+
+[Document Embedding 2](https://github.com/kellecosta/model_amr/blob/main/2_document_embedding.rar)
+
+[Document Embedding 3_part1](https://github.com/kellecosta/model_amr/blob/main/3_document_embedding.part1.rar)
+
+[Document Embedding 3_part2](https://github.com/kellecosta/model_amr/blob/main/3_document_embedding.part2.rar)
+
+[Document Embedding 4_part1](https://github.com/kellecosta/model_amr/blob/main/4_document_embedding.part1.rar)
+
+[Document Embedding 4_part2](https://github.com/kellecosta/model_amr/blob/main/4_document_embedding.part2.rar)
 
 * Importante: Após baixar os arquivos do modelo (Document Embedding), selecione todos e use a opção descompactar aqui, isso fará a junção dos arquivos que precisaram ser divididos em arquivos de até 2 GB para serem enviados ao GITHUB. 
 
