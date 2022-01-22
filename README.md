@@ -186,6 +186,8 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 # Document Embedding (AMR Context)
 [Document Embedding]
 
+* Importante: Após baixar os arquivos do modelo (Document Embedding), selecione todos e use a opção descompactar aqui, isso fará a junção dos arquivos que precisaram ser divididos em arquivos de até 2 GB para serem enviados ao GITHUB. 
+
 # Figures and Tables
 
 [Figures](https://github.com/engbiopct/TextMiningAMR/tree/main/figure)
