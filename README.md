@@ -5,6 +5,8 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 # Overview
 
 ![alt text](https://github.com/engbiopct/TextMiningAMR/blob/main/figure/Figure%201.png?raw=true)
+Figure 1. Proposed TM model. 
+
 </br>A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
 
 Recuperamos uma coleção de artigos relevantes no domínio Drug Resistance, Microbial, do banco de dados Pubmed Central (PMC), onde são disponibilizados arquivos de texto completo e gratuitos da literatura biomédica da Biblioteca Nacional de Medicina e do Instituto Nacional de Saúde dos EUA (NIH / NLM). 
@@ -41,7 +43,7 @@ Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
   <td width=267 valign=top style='width:200.05pt;border:solid black 1.0pt;
   border-top:none;background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
   <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><b><span
-  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Rotulação</span></b></p>
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Labeling</span></b></p>
   </td>
   <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
@@ -105,7 +107,7 @@ Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
   solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
   background:#F2F2F2;padding:0cm 5.4pt 0cm 5.4pt;height:16.0pt'>
   <p class=MsoNormalCxSpMiddle style='text-align:justify;line-height:115%'><b><span
-  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Classificação</span></b></p>
+  lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman","serif"'>Classification</span></b></p>
   </td>
   <td width=172 valign=top style='width:128.65pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
