@@ -4,8 +4,7 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 
 # Overview
 
-![alt text](https://github.com/engbiopct/TextMiningAMR/blob/main/figure/Figure%201.png?raw=true)
-Figure 1. Proposed TM model. 
+![alt text](https://github.com/engbiopct/TextMiningAMR/blob/main/figure/Figure%201.png?raw=true) Figure 1. Proposed TM model. 
 
 </br>A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
 
