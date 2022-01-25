@@ -203,7 +203,10 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 [Document Embedding 4_part4](https://github.com/kellecosta/model_amr/blob/main/4_document_embedding.part4.rar)
 
-* Importante: Após baixar os arquivos do modelo (Document Embedding), selecione todos e use a opção descompactar aqui, isso fará a junção dos arquivos que precisaram ser divididos em arquivos de até 1 GB para serem enviados ao GITHUB. 
+* IMPORTANTE:
+*1. Baixe os arquivos do modelo (Document Embedding) no diretório "results"
+
+*2. Selecione todos os arquivos compactados e utilize a opção descompactar aqui, isso fará a junção dos arquivos que precisaram ser divididos em arquivos de até 1 GB para serem enviados ao GITHUB. 
 
 # Figures and Tables
 
