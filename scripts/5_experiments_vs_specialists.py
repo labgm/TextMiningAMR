@@ -80,5 +80,5 @@ indexNames = df_final[ df_final['E'] == 0 ].index
 df_final.drop(indexNames , inplace=True)
 sums = df_final.select_dtypes(pd.np.number).sum().rename('total')
 df_final = df_final.append(sums)
-df_final.to_csv('results/5_Experiments_vs_Specialists.csv', index=False, encoding='utf-8', header=False, sep=',')
+df_final.to_csv('results/5_experiments_vs_specialists.csv', index=False, encoding='utf-8', header=False, sep=',')
 df_final
