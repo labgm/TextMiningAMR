@@ -39,7 +39,7 @@ for i in terms2 :
     my_vocabulary.append(i)
 
 ## Load Model
-model = Doc2Vec.load("results/2_d2v_model.model")
+model = Doc2Vec.load("results/d2v_model.model")
 #STEP 1 - use infer_vector() to obtain the vector representation of the AMR vocabulary - which does not change the underlying model.
 v1 = model.infer_vector(my_vocabulary)
 sims = model.docvecs.most_similar([v1], topn=100000)
