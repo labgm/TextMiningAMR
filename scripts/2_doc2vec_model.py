@@ -78,5 +78,5 @@ for epoch in range(max_epochs):
     # fix the learning rate, no decay
     model.min_alpha = model.alpha
 
-model.save("results/2_d2v_model.model")
+model.save("results/d2v_model.model")
 print("Model Saved")
