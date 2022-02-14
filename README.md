@@ -6,8 +6,7 @@ Antimicrobial resistance is a significant public health problem worldwide. In re
 
 ![alt text](https://github.com/engbiopct/TextMiningAMR/blob/main/figure/Figure%201.png?raw=true) Figure 1. Proposed TM model. 
 
-</br>A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
-
+</br>Figure 1 shows the TM steps implemented in this work in order to label the data. 
 We retrieved a collection of relevant articles in the Drug Resistance and Microbial domain from the Pubmed Central (PMC) database of the National Library of Medicine and the US National Institutes of Health (NIH/NLM).
 We used the MeSH hierarchy terms for antimicrobial resistance (https://meshb.nlm.nih.gov/record/ui?ui=D004352) and obtained a list of PMCIDs (unique identifiers provided by PubMed Central to each document) with which we will access the full texts of the articles through the E-Fetch utility.
 
