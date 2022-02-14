@@ -1,6 +1,6 @@
 # Text Mining for Identification of Biological Entities Related to Antibiotic Resistant Organisms
 
-Antimicrobial resistance is an important public health problem worldwide. In recent years, the scientific community has been intensifying efforts to combat this problem; many experiments have been developed and a large number of articles are being published in this area. However, the growing volume of biological literature makes the work of researchers and biocurators increasingly difficult due to the cost and time required. As result, modern text mining tools with the adoption of artificial intelligence technology have been increasingly required to assist in the evolution of research. Thus, in this article we propose a text mining model capable of identifying and prioritizing scientific articles in the context of antimicrobial resistance. For this, we retrieved scientific articles from the PubMed Central database, adopted machine learning techniques to generate the vector representation of the retrieved scientific articles and identify their similarity with the context. As result of this process, we obtained a dataset labeled with the classes "Relevant" and “Irrelevant” and use this dataset to implement two supervised learning algorithms to classify new records. The overall performance of the model reached 90% accuracy and f-measure (harmonic mean between the metrics) reached 82% accuracy for class positive, showing quality in the identification of scientific articles relevant to the context.
+Antimicrobial resistance is a significant public health problem worldwide. In recent years, the scientific community has been intensifying efforts to address this problem; many experiments have been developed, which generated many articles are being published in this area. However, the growing volume of biological literature makes researchers and biocurators increasingly difficult due to the cost and time required. As a result, modern text mining tools with the adoption of artificial intelligence technology have been increasingly required to assist in the evolution of research. Thus, we propose a text mining model capable of identifying and prioritizing scientific articles in the context of antimicrobial resistance. We retrieved scientific articles from the PubMed Central database, adopted machine learning techniques to generate the vector representation of the retrieved scientific articles, and identified their similarity with the context. As a result of this process, we obtained a dataset labeled "Relevant" and "Irrelevant". We used this dataset to implement two supervised learning algorithms to classify new records. The model's overall performance reached 90% accuracy. The f-measure (harmonic mean between the metrics) reached 82% accuracy for class positive, showing quality in identifying scientific articles relevant to the context.
 
 # Overview
 
@@ -8,13 +8,13 @@ Antimicrobial resistance is an important public health problem worldwide. In rec
 
 </br>A Figura 1 mostra as etapas da MT implementadas neste trabalho. 
 
-Recuperamos uma coleção de artigos relevantes no domínio Drug Resistance, Microbial, do banco de dados Pubmed Central (PMC), onde são disponibilizados arquivos de texto completo e gratuitos da literatura biomédica da Biblioteca Nacional de Medicina e do Instituto Nacional de Saúde dos EUA (NIH / NLM). 
-Utilizamos os termos da hierarquia MeSH para resistência antimicrobiana (https://meshb.nlm.nih.gov/record/ui?ui=D004352) e obtivemos uma lista de PMCIDs (identificadores únicos fornecidos pelo PubMed Central a cada documento) com os quais acessaremos os textos completos dos artigos através do utilitário E-Fetch. 
+We retrieved a collection of relevant articles in the Drug Resistance and Microbial domain from the Pubmed Central (PMC) database of the National Library of Medicine and the US National Institutes of Health (NIH/NLM).
+We used the MeSH hierarchy terms for antimicrobial resistance (https://meshb.nlm.nih.gov/record/ui?ui=D004352) and obtained a list of PMCIDs (unique identifiers provided by PubMed Central to each document) with which we will access the full texts of the articles through the E-Fetch utility.
 
-Utilizamos o algoritmo de aprendizagem não supervisionada Doc2Vec da biblioteca Gensim, que implementa o modelo Paragraph Vector – Distributed Memory, para obter o embedding dos documentos recuperados (Figure 1-C). Com o modelo pré-treinado, inferimos a similaridade dos documentos ao contexto AMR, representado por 4.290 termos extraídos do CARD e do Gene Ontology Database (Figure 1-D) e rotulamos automaticamente cada um dos artigos científicos (Figure 1-E) como relevante ou irrelevante.
+We used the Doc2Vec unsupervised learning algorithm from the Gensim library, which implements the Paragraph Vector – Distributed Memory model, to obtain the embedding of the retrieved documents (Figure 1-C). With the pre-trained model, we inferred the similarity of the documents to the AMR context, represented by 4,290 terms extracted from CARD and the Gene Ontology Database (Figure 1-D), and automatically labeled each of the scientific articles (Figure 1-E) as relevant or irrelevant.
 
 # Results
-Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
+Table 3. Results of Labeling and Classification vs Experts steps
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
@@ -167,7 +167,7 @@ Table 3. Resultados das etapas de Rotulação e Classificação vs Especialistas
  </tr>
 </table>
 
-A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de rotulação quanto na etapa de classificação, em comparação com os dados rotulados por especialistas e valida a hipótese de que o uso de Paragraph Vector, Distributed Representations of Sentences and Documents associados a similaridade com um contexto específico é capaz de, não somente, realizar a classificação binária de grandes volumes de dados de forma satisfatória, como também otimizar o percentual de acertos quando submetida a classificadores supervisionados.
+Table 3 presents the percentage of correct predictions, both in the labeling and in the classification stage, in comparison with the data labeled by experts and validates the hypothesis that the use of Paragraph Vector, Distributed Representations of Sentences, and Documents associated with similarity with a specific context is able not only to perform the binary classification of large volumes of data satisfactorily but also to optimize the percentage of correct answers when submitted to supervised classifiers.
 
 
 # Complementary Materials
@@ -203,11 +203,11 @@ A Table 3 apresenta o percentual de acertos das predições, tanto na etapa de r
 
 [Document Embedding 4_part4](https://github.com/kellecosta/model_amr/blob/main/4_document_embedding.part4.rar)
 
-* IMPORTANTE:
+* ATTENTION:
 
- *1. Baixe os arquivos do modelo (Document Embedding) no diretório "results".
+ *1. Download the template files (Document Embedding) in the "results" directory
 
- *2. Selecione todos os arquivos compactados e utilize a opção descompactar aqui, isso fará a junção dos arquivos que precisaram ser divididos em arquivos de até 1 GB para serem enviados ao GITHUB. 
+ *2. Select all zipped files and use the unzip option here, this will merge the files that needed to be split into files of up to 1 GB to be uploaded to github. 
 
 # Figures and Tables
 
