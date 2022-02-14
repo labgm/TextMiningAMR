@@ -182,6 +182,8 @@ Table 3 presents the percentage of correct predictions, both in the labeling and
 [Table S5 - Experiments vs Specialists](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/5_experiments_vs_specialists.csv)
 
 # Document Embedding (AMR Context)
+Set of pre-trained document embeddings in the AMR domain.
+
 [Document Embedding 1](https://github.com/kellecosta/model_amr/blob/main/1_document_embedding.rar)
 
 [Document Embedding 2](https://github.com/kellecosta/model_amr/blob/main/2_document_embedding.rar)
