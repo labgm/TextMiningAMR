@@ -173,7 +173,7 @@ Table 3 presents the percentage of correct predictions, both in the labeling and
 
 [Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/1_initial_dataset.rar)
 
-[Table S2 - CARD and the Gene Ontology Database](https://github.com/kellecosta/model_amr/blob/main/teste.csv)
+[Table S2 - CARD and the Gene Ontology Database](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/data_source/card_ontology.csv)
 
 [Table S3 - Dataset Doc2vec Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/3_dataset_doc2vec_label.csv)
 
