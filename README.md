@@ -169,7 +169,7 @@ Table 3. Results of Labeling and Classification vs Experts steps
 Table 3 presents the percentage of correct predictions, both in the labeling and in the classification stage, in comparison with the data labeled by experts and validates the hypothesis that the use of Paragraph Vector, Distributed Representations of Sentences, and Documents associated with similarity with a specific context is able not only to perform the binary classification of large volumes of data satisfactorily but also to optimize the percentage of correct answers when submitted to supervised classifiers.
 
 
-# Dataset Initial
+# Initial Dataset
 Relevant articles in the Drug Resistance domain from Pubmed Central database:
 
 [Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/1_initial_dataset.rar)
