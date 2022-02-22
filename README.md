@@ -169,17 +169,10 @@ Table 3. Results of Labeling and Classification vs Experts steps
 Table 3 presents the percentage of correct predictions, both in the labeling and in the classification stage, in comparison with the data labeled by experts and validates the hypothesis that the use of Paragraph Vector, Distributed Representations of Sentences, and Documents associated with similarity with a specific context is able not only to perform the binary classification of large volumes of data satisfactorily but also to optimize the percentage of correct answers when submitted to supervised classifiers.
 
 
-# Complementary Materials
+# Dataset Initial
+Relevant articles in the Drug Resistance domain from Pubmed Central database:
 
-[Table S1 - Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/1_initial_dataset.rar)
-
-[Table S2 - CARD and the Gene Ontology Database](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/data_source/card_ontology.csv)
-
-[Table S3 - Dataset Doc2vec Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/3_dataset_doc2vec_label.csv)
-
-[Table S4 - Dataset TF-IDF Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/4_dataset_tfidf_label.csv)
-
-[Table S5 - Experiments vs Specialists](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/5_experiments_vs_specialists.csv)
+[Initial Dataset](https://github.com/kellecosta/model_amr/blob/main/1_initial_dataset.rar)
 
 # Document Embedding (AMR Context)
 Set of pre-trained document embeddings in the AMR domain.
@@ -215,3 +208,13 @@ Set of pre-trained document embeddings in the AMR domain.
 [Figures](https://github.com/engbiopct/TextMiningAMR/tree/main/figure)
 
 [Tables](https://github.com/engbiopct/TextMiningAMR/tree/main/table)
+
+# Complementary Materials
+
+[Table S1 - CARD and the Gene Ontology Database](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/data_source/card_ontology.csv)
+
+[Table S2 - Dataset Doc2vec Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/3_dataset_doc2vec_label.csv)
+
+[Table S3 - Dataset TF-IDF Label](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/4_dataset_tfidf_label.csv)
+
+[Table S4 - Experiments vs Specialists](https://github.com/engbiopct/TextMiningAMR/blob/main/scripts/results/5_experiments_vs_specialists.csv)
